@@ -21,7 +21,7 @@
  * Deve ser criado um Schema com o nome de api-music
  
 ### EndPoints
- * Utilize o postman para testar os endpoints
+ * Documentação Conmpleta dos endpoints: http://localhost:8080/swagger-ui.html
  
  * GET - http://localhost:8080/api/music/v1/autorization
    * endPoint retorna um link para que possa ser feita a autenticação no spotify, copie este link e cole no navegador
@@ -51,6 +51,5 @@
    
  * GET - http://localhost:8080/api/music/v1/invoice/78
    * endPoint que retorna uma venda pelo ID
-   
-   * Documentação Conmpleta dos endpoints: http://localhost:8080/swagger-ui.html
+
   
