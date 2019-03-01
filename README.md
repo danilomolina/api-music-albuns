@@ -39,11 +39,11 @@
    
  * POST - http://localhost:8080/api/music/v1/
    * endPoint responsavel em criar uma venda
-   Ex. de Json para criar a venda(deve ser passaso no Body):
-   {
+   * Ex. de Json para criar a venda(deve ser passado no Body):
+   * {
 	"date": "24/02/2019",
 	"value": "20",
-	"itens":[{"quant":1, "cashback":36, "disk":56, "value": 10 }, {"quant":1, "cashback":36, "disk":126, "value":10 }]
+	"itens":[{"quant":1, "cashback":0, "disk":56, "value": 10 }, {"quant":1, "cashback":0, "disk":126, "value":10 }]
    }
    
  * GET - http://localhost:8080/api/music/v1/invoice/02.02.2019/24.02.2019
