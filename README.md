@@ -32,13 +32,13 @@
     https://github.com/thelinmichael/spotify-web-api-java
     
  * GET - http://localhost:8080/api/music/v1/genre/rock
-  * endPoint retorna todos os albuns conforme o genero solicitado
+   * endPoint retorna todos os albuns conforme o genero solicitado
    
   * GET - http://localhost:8080/api/music/v1/45
-   Este endPoint retorna um album conforme o ID solicitado
+   * Este endPoint retorna um album conforme o ID solicitado
    
  * POST - http://localhost:8080/api/music/v1/
-  * endPoint responsavel em criar uma venda
+   * endPoint responsavel em criar uma venda
    Ex. de Json para criar a venda(deve ser passaso no Body):
    {
 	"date": "24/02/2019",
