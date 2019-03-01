@@ -24,7 +24,7 @@
  * Utilize o postman para testar os endpoints
  
  * GET - http://localhost:8080/api/music/v1/autorization
-   # endPoint retorna um link para que possa ser feita a autenticação no spotify, copie este link e cole no navegador
+   ### endPoint retorna um link para que possa ser feita a autenticação no spotify, copie este link e cole no navegador
    Depois de acessar o link utilize o usuário: apimusicspotify@gmail.com com a senha isl4tybz
    Depois de permitido o acesso a API do Spotify o endpoint vai inserir os albuns no banco de dados
    
